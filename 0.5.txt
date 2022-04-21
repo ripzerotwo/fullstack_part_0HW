@@ -1,0 +1,8 @@
+browser->server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/spa
+server->browser: HTML
+browser->server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server->browser: main.css
+browser->server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+server->browser: spa.js
+browser->server: HTTPS GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server->browser: [{content: "Click here to earn 50BTC for free!", date: "2022-04-21T07:56:37.400Z"},…]
